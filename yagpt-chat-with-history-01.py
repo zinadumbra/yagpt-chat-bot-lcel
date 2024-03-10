@@ -27,7 +27,7 @@ def main():
     Чатбот на базе YandexGPT, который запоминает контекст беседы. Чтобы "сбросить" контекст обновите страницу браузера.\n
     Вы можете выбрать какую [YaGPT модель](https://cloud.yandex.ru/ru/docs/yandexgpt/concepts/models) использовать, а также настроить размер ее контекстного окна и параметры креативности (см. окно слева). 
     Историю сообщений можно посмотреть ниже.
-    [Исходный код приложения](https://github.com/dzhechko/streamlit-agent/edit/main/streamlit_agent/basic_memory.py)
+    [Исходный код приложения](https://github.com/dzhechko/yagpt-chat-bot-lcel/blob/main/yagpt-chat-with-history-01.py)
     """
     # st.warning('Это Playground для общения с YandexGPT')
 
