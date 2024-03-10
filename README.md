@@ -2,10 +2,10 @@
 
 ### Краткая информация
 Данный YaGPT-бот использует следующие компоненты:
-    - [Yandex GPT](https://cloud.yandex.ru/services/yandexgpt)
-    - [Yandex GPT for Langchain](https://python.langchain.com/docs/integrations/chat/yandex)
-    - [Streamlit](https://streamlit.io/)
-    - [LangChain](https://python.langchain.com/)
+- [Yandex GPT](https://cloud.yandex.ru/services/yandexgpt)
+- [Yandex GPT for Langchain](https://python.langchain.com/docs/integrations/chat/yandex)
+- [Streamlit](https://streamlit.io/)
+- [LangChain](https://python.langchain.com/)
 
 ### Структура репозитория и порядок работы с ботом
 - в файле ``.env`` находятся системные переменные (которые при запуске в облаке можно указать как secrets)
