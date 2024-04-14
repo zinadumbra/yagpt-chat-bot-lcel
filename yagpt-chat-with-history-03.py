@@ -90,8 +90,8 @@ def main():
       "YandexGPT Lite",
       "YandexGPT Pro"      
     ]    
-    selected_model = 0
-    selected_model = st.sidebar.radio("Выберите модель для работы:", model_list, index=selected_model, key="index")     
+    index_model = 0
+    selected_model = st.sidebar.radio("Выберите модель для работы:", model_list, index=index_model, key="index")     
     
     # yagpt_prompt = st.sidebar.text_input("Промпт-инструкция для YaGPT")
     # Добавляем виджет для выбора опции
@@ -133,7 +133,7 @@ def main():
 
     # model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt/latest"
     # model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt-lite/latest"
-    if selected_model=="YandexGPT Lite": 
+    if selected_model==model_list[0]: 
         model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt-lite/latest"
     else:
         model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt/latest"    
