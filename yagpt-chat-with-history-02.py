@@ -131,7 +131,7 @@ def main():
 
     # model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt/latest"
     # model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt-lite/latest"
-    if selected_model==0: 
+    if selected_model=="YandexGPT Lite": 
         model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt-lite/latest"
     else:
         model_uri = "gpt://"+str(yagpt_folder_id)+"/yandexgpt/latest"    
